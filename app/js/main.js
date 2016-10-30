@@ -9,4 +9,10 @@ var $grid =  $('.images').masonry({
   $grid.imagesLoaded().progress( function() {
     $grid.masonry('layout');
   });
+  // $grid.on( 'click', '.grid-item', function() {
+  //   // change size of item via class
+  //   $( this ).toggleClass('grid-item--gigante');
+  //   // trigger layout
+  //   $grid.masonry();
+  // });
 });

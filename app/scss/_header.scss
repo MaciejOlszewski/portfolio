@@ -1,0 +1,26 @@
+header {
+  display: block;
+  position:fixed;
+  width: 200px;
+  float: left;
+  height: 100vh;
+
+  h1 {
+    font-size: 2em;
+    color: white;
+    font-weight: normal;
+    padding-left: 20px;
+    font-family: 'Raleway', sans-serif;
+  }
+  h1 span::first-letter{
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 1em;
+    color: white;
+    font-weight: lighter;;
+    padding-left: 20px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+}
