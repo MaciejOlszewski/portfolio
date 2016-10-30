@@ -1,7 +1,39 @@
-* {
-  color: green; }
+.grid-width,
+.grid-item {
+  max-width: 33.333%; }
 
-h2 {
-  font-size: 4em; }
+.grid-item {
+  float: left; }
+
+.grid-item img {
+  display: block;
+  max-width: 100%; }
+
+.images {
+  background-color: navy;
+  width: calc(100% - 200px);
+  height: 1000px;
+  float: right; }
+
+header {
+  display: block;
+  position: fixed;
+  width: 200px;
+  float: left;
+  height: 100vh;
+  background-color: red; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+@media (max-width: 800px) {
+  .grid-width,
+  .grid-item {
+    max-width: 50%; } }
 
 /*# sourceMappingURL=maps/styles.css.map */
