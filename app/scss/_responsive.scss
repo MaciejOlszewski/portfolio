@@ -1,6 +1,25 @@
-@media (max-width:800px) {
+@media (min-width:1160px) {
+  .grid-width,
+  .grid-item {
+    max-width: 33.333%;
+  }
+}
+@media (max-width:1160px) {
   .grid-width,
   .grid-item {
     max-width: 50%;
+  }
+}
+@media (max-width:775px){
+  .grid-item {
+    max-width: 100%;
+  }
+}
+@media (max-width:550px){
+  header {
+    width: 0px;
+  }
+  .images {
+    width: 100%;
   }
 }

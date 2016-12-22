@@ -16,3 +16,7 @@ var $grid =  $('.images').masonry({
   //   $grid.masonry();
   // });
 });
+lightbox.option({
+  'disableScrolling': true,
+  'wrapAround': true
+})
